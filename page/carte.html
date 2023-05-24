@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Carte</title>
+
+    <!--js pour menu déroulant-->
+    <script src="../js/bootstrap.bundle.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('dropdown-toggle').dropdown()
+        });
+    </script>
+
+</head>
+
+<!--Navbar-->
+<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="../image/JoJos-Bizarre-Adventure-Jojo-PNG-Free-Download.png" width="100" height="50" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class=" collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="../index.html">Accueil <span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Personnages
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarDarkDropdownMenuLink">
+                      <li><a class="dropdown-item" href="protagoniste.html">Protagoniste</a></li>
+                      <li><a class="dropdown-item" href="antagonistes.html">Antagoniste</a></li>
+                    </ul>
+                  </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="carte.html">Carte</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Parties.html">Autres Parties</a>
+                </li>
+            </ul>
+            <form target="_blank" action="#">
+                <button class="btn btn-dark ms-lg-3" id="button-color" type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+  </nav>
+
+  <!--carte-->
+    <section>
+        <h2 class="titre">La carte du trajet réaliser par nos héros lors de Stardust Crusaders</h2>
+        <img src="../image/map.jpg" alt="" class="img-fluid">
+    </section>
+
+<!--pied de page-->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <img src="../image/JoJos-Bizarre-Adventure-Jojo-PNG-Free-Download.png" width="100" height="50 "
+                        alt="">
+                </div>
+                <div class="col">
+                    Site réaliser par Nora et Estéban.
+                </div>
+                <div class="col">
+                    Les droit concernant Jojo's Bizarre Adventure appartient à Shūeisha Inc. et son auteur Hirohiko
+                    Araki.
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
